@@ -1,4 +1,4 @@
-# Weather Forecast - React
+# Weather Forecast - MDB
 
 ## Description
 
