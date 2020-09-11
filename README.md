@@ -2,7 +2,7 @@
 
 ## Description
 
-A weather forecast app using react. This will be an improvement over my previous weather forecast web page.
+A weather forecast app using Material Design Bootstrap. This will be an improvement over my previous weather forecast web page.
 
 ### Technologies
 
