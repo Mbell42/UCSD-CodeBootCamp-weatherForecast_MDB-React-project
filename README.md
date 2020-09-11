@@ -1,8 +1,8 @@
-# MDB_LandingPage_Template
+# Weather Forecast - React
 
 ## Description
 
-A static Landing Page template that utilizes Material Design Bootstrap made for training purposes.  This Landing Page was initially built following along with the tutorial at "https://mdbootstrap.com/education/bootstrap/landing-page-lesson-1/", and has been customized and updated to become a custom template.  I will use this template as a starting point for future projects.
+A weather forecast app using react. This will be an improvement over my previous weather forecast web page.
 
 ### Technologies
 
