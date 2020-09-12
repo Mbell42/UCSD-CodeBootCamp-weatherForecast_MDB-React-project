@@ -5,8 +5,12 @@ import {MDBContainer, MDBRow, MDBCol } from "mdbreact";
 //Component
 function SearchCard () {
       return (
-        <MDBContainer>
-            
+        <MDBContainer className="mt-5 mb-3">
+          <MDBRow>
+            <MDBCol>
+              <h3>Search Here...</h3>
+            </MDBCol>
+          </MDBRow>
         </MDBContainer>
       );
   }
