@@ -6,7 +6,11 @@ import {MDBContainer, MDBRow, MDBCol } from "mdbreact";
 function Header () {
       return (
         <MDBContainer>
-            
+          <MDBRow>
+            <MDBCol>
+              <h1>Weather Forecast App</h1>
+            </MDBCol>
+          </MDBRow>
         </MDBContainer>
       );
   }
