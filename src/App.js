@@ -1,8 +1,10 @@
+//Dependencies
 import React, { Component } from "react";
 import { MDBBtn, MDBCol, MDBContainer, MDBRow } from "mdbreact";
 import "./index.css";
 import logo from "./logo.png";
 
+//App
 class App extends Component {
   render() {
     return (
