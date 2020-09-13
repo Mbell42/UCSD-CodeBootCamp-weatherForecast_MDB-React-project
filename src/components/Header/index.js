@@ -5,7 +5,7 @@ import {MDBContainer, MDBRow, MDBCol } from "mdbreact";
 //Component
 function Header () {
       return (
-        <MDBContainer  className="mt-5 mb-3">
+        <MDBContainer  className="mt-5 mb-3 p-2">
           <MDBRow>
             <MDBCol>
               <h1>Weather Forecast App</h1>
