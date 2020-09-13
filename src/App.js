@@ -10,8 +10,6 @@ import PreviousSearches from "./components/PreviousSearches";
 import ForecastHeader from "./components/ForecastHeader";
 import ForecastGraphic from "./components/ForecastGraphic";
 import ForecastCard from "./components/ForecastCard";
-
-
 //App
 class App extends Component {
   render() {
@@ -77,5 +75,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;

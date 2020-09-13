@@ -1,7 +1,6 @@
 //Dependencies
 import React from "react";
-import {MDBContainer, MDBRow, MDBCol, MDBFormInline, MDBIcon } from "mdbreact";
-import ForecastCard from "../ForecastCard";
+import {MDBRow, MDBCol, MDBFormInline, MDBIcon } from "mdbreact";
 //Component
 function SearchCard () {
       return (
