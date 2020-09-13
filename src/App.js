@@ -19,16 +19,16 @@ class App extends Component {
       
         <MDBContainer style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
           <MDBRow center>
-            <MDBCol middle="true" sm="8" className="text-center">
+            <MDBCol middle="true" sm="10" className="text-center">
               <Header></Header>
               {/* Main */}
               <main style={{ flexGrow: "1", textAlign: "center", padding: "25px" }}>
                 {/* main row 1 - Search and ForecastHeader row */}
                 <MDBRow>
-                  <MDBCol>
+                  <MDBCol sm="4">
                     <SearchCard></SearchCard>
                   </MDBCol>
-                  <MDBCol>
+                  <MDBCol sm="8">
                     <ForecastHeader></ForecastHeader>
                   </MDBCol>
                 </MDBRow>
@@ -36,16 +36,19 @@ class App extends Component {
 
                 {/* main row 2 - PreviousSearches and ForecastGraphic row */}
                 <MDBRow>
-                  <MDBCol>
+                  <MDBCol sm="4">
                     <PreviousSearches></PreviousSearches>
                   </MDBCol>
-                  <MDBCol>
+                  <MDBCol sm="8">
                     <ForecastGraphic></ForecastGraphic>
                   </MDBCol>
                 </MDBRow>
                 {/* End PreviousSearches and ForecastGraphic row */}
-
-                <h4>5-day Forecast</h4>
+                <MDBRow className="pt-2" style={{ background: "#eeeeee" }}>
+                  <MDBCol sm="12">
+                    <h4>5-day Forecast</h4>
+                  </MDBCol>
+                </MDBRow>
                 {/* main row 3 - ForecastCards(x5) row */}
                 <MDBRow>
                   <MDBCol>
