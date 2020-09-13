@@ -15,12 +15,12 @@ class App extends Component {
   render() {
     return (
       
-        <MDBContainer style={{ display: "flex", flexDirection: "column", height: "100vh" }}>
+        <MDBContainer style={{ display:"flex", flexDirection:"column", height:"100vh" }}>
           <MDBRow center>
             <MDBCol middle="true" sm="10" className="text-center">
               <Header></Header>
               {/* Main */}
-              <main style={{ flexGrow: "1", textAlign: "center", padding: "25px" }}>
+              <main style={{ flexGrow:"1", textAlign:"center", padding:"25px" }}>
                 {/* main row 1 - Search and ForecastHeader row */}
                 <MDBRow>
                   <MDBCol sm="4">
@@ -42,13 +42,13 @@ class App extends Component {
                   </MDBCol>
                 </MDBRow>
                 {/* End PreviousSearches and ForecastGraphic row */}
-                <MDBRow className="pt-2" style={{ background: "#eeeeee" }}>
+                <MDBRow className="pt-2" style={{ background:"#eeeeee" }}>
                   <MDBCol sm="12">
                     <h4>5-day Forecast</h4>
                   </MDBCol>
                 </MDBRow>
                 {/* main row 3 - ForecastCards(x5) row */}
-                <MDBRow>
+                <MDBRow style={{ background:"#eeeeee" }}>
                   <MDBCol>
                     <ForecastCard></ForecastCard>
                   </MDBCol>
