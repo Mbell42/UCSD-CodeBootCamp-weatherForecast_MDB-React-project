@@ -4,7 +4,7 @@ import { MDBRow, MDBCol, MDBListGroup, MDBListGroupItem } from "mdbreact";
 //Component
 function PreviousSearches () {
   return (
-    <MDBCol className="mt-5 mb-3">
+    <MDBCol className="mt-5 mb-3" style={{ background:"#57bd74" }}>
       <MDBRow>
         <MDBCol className="text-center">
           <h5>

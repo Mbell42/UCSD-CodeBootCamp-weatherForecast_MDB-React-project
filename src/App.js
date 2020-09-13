@@ -20,13 +20,13 @@ class App extends Component {
             <MDBCol middle="true" sm="10" className="text-center">
               <Header></Header>
               {/* Main */}
-              <main style={{ flexGrow:"1", textAlign:"center", padding:"25px" }}>
+              <main style={{ flexGrow:"1", textAlign:"center" }}>
                 {/* main row 1 - Search and ForecastHeader row */}
                 <MDBRow>
-                  <MDBCol sm="4">
+                  <MDBCol sm="5">
                     <SearchCard></SearchCard>
                   </MDBCol>
-                  <MDBCol sm="8">
+                  <MDBCol sm="7">
                     <ForecastHeader></ForecastHeader>
                   </MDBCol>
                 </MDBRow>
@@ -34,10 +34,10 @@ class App extends Component {
 
                 {/* main row 2 - PreviousSearches and ForecastGraphic row */}
                 <MDBRow>
-                  <MDBCol sm="4">
+                  <MDBCol sm="5">
                     <PreviousSearches></PreviousSearches>
                   </MDBCol>
-                  <MDBCol sm="8">
+                  <MDBCol sm="7">
                     <ForecastGraphic></ForecastGraphic>
                   </MDBCol>
                 </MDBRow>
