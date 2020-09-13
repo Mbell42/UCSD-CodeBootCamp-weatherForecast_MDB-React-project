@@ -1,18 +1,14 @@
 //Dependencies
 import React from "react";
 import {MDBContainer, MDBRow, MDBCol } from "mdbreact";
-
 //Component
 function PreviousSearches () {
       return (
-        <MDBContainer className="mt-5 mb-3">
-          <MDBRow>
+          <MDBRow className="mt-5 mb-3">
             <MDBCol>
-              <h3>Previous Searches</h3>
+              <h5>Previous Searches</h5>
             </MDBCol>
           </MDBRow>
-        </MDBContainer>
       );
   }
-  
-  export default PreviousSearches;
+export default PreviousSearches;
