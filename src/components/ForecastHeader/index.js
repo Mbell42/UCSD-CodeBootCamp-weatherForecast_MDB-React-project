@@ -1,30 +1,33 @@
 //Dependencies
 import React, {useState} from "react";
 import {MDBRow, MDBCol } from "mdbreact";
+
+import getForecast from "../../util/api";
 //Component
 function ForecastHeader () {
 
-  //Weather API Fetch
+  //API Call
   let [responseObj, setResponseObj] = useState({});
-  function getForecast() {
-    fetch("https://community-open-weather-map.p.rapidapi.com/weather?q=seattle", {
-      "method": "GET",
-      "headers": {
-        "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
-        "x-rapidapi-key": "ac0f20a9f0mshad6683ac635f3afp1c6e19jsn65c57dc8c667"
-	    }
-    })
-    .then(response => response.json())
-    .then(response => {
-      setResponseObj(response)
-    })
-    .then(response => {
-      console.log(response);
-    })
-    .catch(err => {
-      console.log(err);
-    });
-  }
+
+  // function getForecast() {
+  //   fetch("https://community-open-weather-map.p.rapidapi.com/weather?q=seattle", {
+  //     "method": "GET",
+  //     "headers": {
+  //       "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
+  //       "x-rapidapi-key": "**"
+	//     }
+  //   })
+  //   .then(response => response.json())
+  //   .then(response => {
+  //     setResponseObj(response)
+  //   })
+  //   .then(response => {
+  //     console.log(response);
+  //   })
+  //   .catch(err => {
+  //     console.log(err);
+  //   });
+  // }
 
   //JSX
   return (
