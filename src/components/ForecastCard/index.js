@@ -1,6 +1,6 @@
 //Dependencies
 import React from "react";
-import {MDBRow, MDBCol } from "mdbreact";
+import {MDBCol } from "mdbreact";
 
 //Component
 function ForecastCard () {
