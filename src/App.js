@@ -24,10 +24,10 @@ class App extends Component {
                 {/* main row 1 - Search and ForecastHeader row */}
                 <MDBRow>
                   <MDBCol sm="5">
-                    <SearchCard></SearchCard>
+                    <SearchCard />
                   </MDBCol>
                   <MDBCol sm="7">
-                    <ForecastHeader></ForecastHeader>
+                    <ForecastHeader />
                   </MDBCol>
                 </MDBRow>
                 {/* End Search and ForecastHeader row */}
@@ -35,10 +35,10 @@ class App extends Component {
                 {/* main row 2 - PreviousSearches and ForecastGraphic row */}
                 <MDBRow>
                   <MDBCol sm="5">
-                    <PreviousSearches></PreviousSearches>
+                    <PreviousSearches />
                   </MDBCol>
                   <MDBCol sm="7">
-                    <ForecastGraphic></ForecastGraphic>
+                    <ForecastGraphic />
                   </MDBCol>
                 </MDBRow>
                 {/* End PreviousSearches and ForecastGraphic row */}
@@ -50,25 +50,25 @@ class App extends Component {
                 {/* main row 3 - ForecastCards(x5) row */}
                 <MDBRow style={{ background:"#eeeeee" }}>
                   <MDBCol>
-                    <ForecastCard></ForecastCard>
+                    <ForecastCard />
                   </MDBCol>
                   <MDBCol>
-                    <ForecastCard></ForecastCard>
+                    <ForecastCard />
                   </MDBCol>
                   <MDBCol>
-                    <ForecastCard></ForecastCard>
+                    <ForecastCard />
                   </MDBCol>
                   <MDBCol>
-                    <ForecastCard></ForecastCard>
+                    <ForecastCard />
                   </MDBCol>
                   <MDBCol>
-                    <ForecastCard></ForecastCard>
+                    <ForecastCard />
                   </MDBCol>
                 </MDBRow>
                 {/* End ForecastCards row */}
               </main>
               {/* End Main */}
-              <Footer></Footer>
+              <Footer />
             </MDBCol>
           </MDBRow>
         </MDBContainer>
