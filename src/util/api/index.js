@@ -2,6 +2,8 @@
 import React, {useState} from "react";
 
 //API Call
+//reference api key from env file
+
 let [responseObj, setResponseObj] = useState({});
 
 const getForecast = () => {
