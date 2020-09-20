@@ -10,7 +10,7 @@ const getForecast = () => {
     fetch("https://community-open-weather-map.p.rapidapi.com/weather?q=seattle", {
         "method": "GET",
         "headers": {
-        "x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
+        "x-rapidapi-host": "**",
         "x-rapidapi-key": "**"
         }
     })
