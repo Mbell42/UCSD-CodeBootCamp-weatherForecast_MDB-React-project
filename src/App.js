@@ -30,7 +30,7 @@ class App extends Component {
                     <ForecastHeader />
                   </MDBCol>
                 </MDBRow>
-                {/* End Search and ForecastHeader row */}
+                {/* End main row 1 - Search and ForecastHeader row */}
 
                 {/* main row 2 - PreviousSearches and ForecastGraphic row */}
                 <MDBRow>
@@ -41,7 +41,7 @@ class App extends Component {
                     <ForecastGraphic />
                   </MDBCol>
                 </MDBRow>
-                {/* End PreviousSearches and ForecastGraphic row */}
+                {/* End main row 2 - PreviousSearches and ForecastGraphic row */}
                 <MDBRow className="pt-2" style={{ background:"#eeeeee" }}>
                   <MDBCol sm="12">
                     <h4>5-day Forecast</h4>
@@ -65,7 +65,7 @@ class App extends Component {
                     <ForecastCard />
                   </MDBCol>
                 </MDBRow>
-                {/* End ForecastCards row */}
+                {/* End mai row 3 - ForecastCards row */}
               </main>
               {/* End Main */}
               <Footer />
